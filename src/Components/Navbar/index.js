@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { NavLink } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -18,7 +19,9 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon">
+            <FaBars color="black" />
+          </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ml-auto">
