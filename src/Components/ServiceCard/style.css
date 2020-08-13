@@ -1,0 +1,24 @@
+h4 {
+  font-weight: bold;
+  color: #002d5b;
+}
+.service-card {
+  transition: all 1s ease;
+}
+.service-card:hover {
+  box-shadow: 0 0 10px 0px grey;
+}
+.btn-view-services {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  transition: 0.5s;
+  color: #ff656a;
+  border: 2px solid #ff656a; /* green-color :#31d679 */
+  text-decoration: none;
+}
+.btn-view-services:hover {
+  background-color: #ff656a;
+  color: white;
+}

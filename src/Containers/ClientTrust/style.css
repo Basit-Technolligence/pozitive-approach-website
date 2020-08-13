@@ -1,0 +1,25 @@
+.client-img {
+  background: url("../../Images/client.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.client-trust {
+  background-color: white;
+  width: 100%;
+  left: -10%;
+  margin-top: 10%;
+  background-color: rgba(252, 252, 252, 0.4);
+}
+.client-trust-heading {
+  font-weight: 800;
+  color: black;
+  position: relative;
+  font-size: 50px;
+}
+@media (max-width: 1000px) {
+  .client-trust {
+    left: 0%;
+  }
+}

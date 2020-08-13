@@ -1,0 +1,14 @@
+.call-request {
+  background-color: #002d5b;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 50%;
+  background-color: #002d5b;
+}
+@media (max-width: 1000px) {
+  input[type="text"] {
+    width: 90%;
+  }
+}

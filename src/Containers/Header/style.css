@@ -1,0 +1,22 @@
+.header-top {
+  background-color: #002d5b;
+}
+.header-top-div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+.social-icons {
+  list-style: none;
+  margin-top: 10px;
+}
+.social-icons li {
+  margin-right: 25px;
+}
+.social-img {
+  transition: 1s;
+}
+.social-icons li:hover .social-img {
+  color: #002d5b;
+  transform: perspective(600px) rotateY(-180deg);
+}

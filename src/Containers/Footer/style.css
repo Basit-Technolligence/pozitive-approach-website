@@ -1,0 +1,14 @@
+.footer-heading {
+  color: #002d5b;
+  font-weight: 600;
+}
+.footer-subheading {
+  color: grey;
+  transition: 0.5s;
+  font-weight: 400;
+}
+.footer-subheading:hover {
+  color: #ff656a;
+  cursor: pointer;
+  margin-left: 10px;
+}
