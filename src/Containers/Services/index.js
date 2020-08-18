@@ -11,26 +11,29 @@ const Services = (props) => {
         <h1>Our Services</h1>
         <div className="row mt-5">
           <div className="col-md-12">
-            <div className="row mt-4">
+            <div className="row justify-content-center mt-4">
               <ServiceCard
                 title="Accounting & Finance"
-                detail="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+                link="services/accounting"
+                detail="It helps you track income and expenditures and provide quantitative financial information."
               >
                 <FaClipboardList size="3em" color="#ff656a" />
               </ServiceCard>
               <ServiceCard
+                link="services/it"
                 title="IT Services"
-                detail="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+                detail="With the introduction of computers, the business world can change forever."
               >
                 <FaLaptopCode size="3em" color="#ff656a" />
               </ServiceCard>
               <ServiceCard
-                title="Interior Designing"
-                detail="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+                title="Decor Works"
+                link="services/decor"
+                detail="Workplace style and design are significant for work excellence and effectiveness."
               >
                 <FaSlack size="3em" color="#ff656a" />
               </ServiceCard>
-              <div className="mt-5 mx-auto">{props.children}</div>
+              {props.children}
             </div>
           </div>
         </div>

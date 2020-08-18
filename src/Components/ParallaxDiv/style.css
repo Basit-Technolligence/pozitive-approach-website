@@ -1,0 +1,8 @@
+.textContainer {
+  left: 20%;
+  top: 50%;
+  right: 50%;
+  position: absolute;
+  width: fit-content;
+  background-color: rgba(252, 252, 252, 0.4);
+}

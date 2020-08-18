@@ -21,31 +21,25 @@ const Header = () => {
                 <div className="header-top-div">
                   <FaMapMarkerAlt />
                   <span className="ml-1 mt-5 mr-5">
-                    65/A, 17th floor, Kings land, New York
+                    Pozitive Approach AFZA PO Box 932
                   </span>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="header-top-div">
                   <FaEnvelope />
-                  <span className="ml-2 mt-5">info@consulting.com</span>
+                  <span className="ml-2 mt-5">info@pozitiveapproach.ae</span>
                 </div>
               </div>
               <div className="col-md-4">
                 <ul className="social-icons d-flex justify-content-end">
                   <li>
-                    <a
-                      href="https://www.facebook.com/Renewables-Technologies-1581338165331224"
-                      target="_blank"
-                    >
+                    <a href="#">
                       <FaFacebookF className="social-img" color="white" />
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://www.instagram.com/rewewables.n.technologies/"
-                      target="_blank"
-                    >
+                    <a href="#">
                       <FaInstagram className="social-img" color="white" />
                     </a>
                   </li>

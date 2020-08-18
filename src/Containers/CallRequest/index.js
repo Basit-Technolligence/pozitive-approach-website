@@ -40,7 +40,7 @@ const CallRequest = () => {
                   <input
                     type="text"
                     name="number"
-                    className="form-control mx-auto"
+                    className=" form-control mx-auto"
                     placeholder="Number (+923035226823)"
                     required
                   />

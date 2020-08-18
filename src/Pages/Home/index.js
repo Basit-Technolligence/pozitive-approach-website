@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import Header from "../../Containers/Header";
 import ImageOverlay from "../../Containers/ImageOverlay";
@@ -9,6 +9,9 @@ import Footer from "../../Containers/Footer";
 import ClientTrust from "../../Containers/ClientTrust";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Header />
@@ -20,8 +23,14 @@ const Home = () => {
           </button>
         </NavLink>
       </Services>
-      <ClientTrust />
-      <CallRequest />
+      <ClientTrust
+        title="We are more trusted then 500 clients"
+        detail="Without your customers, you would not exist. Your business would
+              not flourish, and regardless of the product or service you
+              provide, it would become null and void. You run a business
+              primarily to help people or offer them something you believe in;
+              you also run a business so you can turn a profit."
+      />
       <Footer />
     </>
   );

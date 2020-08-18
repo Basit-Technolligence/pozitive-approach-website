@@ -7,8 +7,11 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg  mt-3 mb-3">
-        <NavLink className="navbar-brand" to="/" style={{ color: "#002d5b" }}>
-          Pozitive Approach
+        <NavLink className="navbar-brand" to="/">
+          <img
+            style={{ width: "40%" }}
+            src={require("../../Images/logo.jpg")}
+          />
         </NavLink>
         <button
           className="navbar-toggler"
