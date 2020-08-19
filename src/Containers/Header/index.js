@@ -21,7 +21,7 @@ const Header = () => {
                 <div className="header-top-div">
                   <FaMapMarkerAlt />
                   <span className="ml-1 mt-5 mr-5">
-                    Pozitive Approach AFZA PO Box 932
+                    Pozitive Approach, AFZA, PO Box 932
                   </span>
                 </div>
               </div>

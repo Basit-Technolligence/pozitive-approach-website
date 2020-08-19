@@ -12,7 +12,7 @@ const BusinessSetup = () => {
   return (
     <>
       <Header />
-      <ParallaxDiv heading="BUSINESS SETUP" image="business" />
+      <ParallaxDiv heading="BUSINESS SETUP" image="businesss" />
       <VissionAboutCommon title="Company Formation" />
       <div className="container mt-5">
         <div className="row">

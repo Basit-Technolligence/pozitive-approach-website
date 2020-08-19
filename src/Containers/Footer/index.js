@@ -18,8 +18,8 @@ const Footer = () => {
           <div className="col-md-3 m-5">
             <h1 style={{ fontSize: "40px" }}>Pozitive Approach</h1>
             <p className="mt-4" style={{ color: "grey" }}>
-              We help you to grow your business. We are providing multiple
-              services which can take your business from ground to sky.
+              We help you grow your business. We are providing multiple services
+              which can take your business from ground to sky.
             </p>
           </div>
           <div className="col-md-8">
@@ -71,14 +71,14 @@ const Footer = () => {
               <div className="col-md-4  mt-5">
                 <h5 className="footer-heading">Get In Touch</h5>
                 <h6 className="mt-4 footer-subheading">
-                  <FaPhoneAlt /> +00971507348134
+                  <FaPhoneAlt /> +971507348134
                 </h6>
                 <h6 className="mt-4 footer-subheading">
                   <FaEnvelope /> info@pozitiveapproach.ae
                 </h6>
                 <h6 className="mt-4 footer-subheading">
                   <FaMapMarkerAlt />
-                  Pozitive Approach AFZA PO Box 932
+                  Pozitive Approach, AFZA, PO Box 932
                 </h6>
               </div>
             </div>
