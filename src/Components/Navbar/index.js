@@ -9,8 +9,8 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg">
         <NavLink className="navbar-brand" to="/">
           <img
-            style={{ width: "50%" }}
-            src={require("../../Images/logo.jpg")}
+            style={{ width: "35%" }}
+            src={require("../../Images/logo.png")}
           />
         </NavLink>
         <button

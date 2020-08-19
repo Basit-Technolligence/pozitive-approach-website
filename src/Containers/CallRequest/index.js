@@ -20,7 +20,7 @@ const CallRequest = () => {
                 event.target.name.value = "";
                 event.target.number.value = "";
                 alert(
-                  "Thanks for contacting us. We will respond you as soon as possible."
+                  "Thanks for contacting us. We will call you as soon as possible."
                 );
               }}
             >
@@ -41,7 +41,7 @@ const CallRequest = () => {
                     type="text"
                     name="number"
                     className=" form-control mx-auto"
-                    placeholder="Number (+923035226823)"
+                    placeholder="Number (+00971507348134)"
                     required
                   />
                 </div>
