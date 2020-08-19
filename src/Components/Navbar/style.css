@@ -6,8 +6,14 @@
 .navbar-brand {
   font-weight: 900;
   font-size: 25px;
+  width: fit-content;
   color: #002d5b;
 }
 .nav-link:hover {
   color: #ff656a;
+}
+@media (max-width: 1000px) {
+  .navbar-brand {
+    width: 80%;
+  }
 }
