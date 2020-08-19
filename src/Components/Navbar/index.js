@@ -6,10 +6,10 @@ import { FaBars } from "react-icons/fa";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg  mt-3 mb-3">
+      <nav className="navbar navbar-expand-lg">
         <NavLink className="navbar-brand" to="/">
           <img
-            style={{ width: "40%" }}
+            style={{ width: "50%" }}
             src={require("../../Images/logo.jpg")}
           />
         </NavLink>

@@ -17,7 +17,7 @@ const Card = (props) => {
         </h2>
         {props.children}
         <h4 className="text-center mt-4" style={{ color: "goldenrod" }}>
-          AED {props.price} Per Month
+          {props.price}
         </h4>
       </div>
     </>

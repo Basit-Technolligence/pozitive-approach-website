@@ -53,8 +53,8 @@ const Accounting = () => {
         <div className="row">
           <Card
             pkgName="Basic Package"
-            price="1600"
-            cardMargin="3%"
+            price="AED 1600 Per Month"
+            cardMargin="5%"
             color="#000"
             bgColor="#fff"
           >
@@ -82,8 +82,8 @@ const Accounting = () => {
           </Card>
           <Card
             pkgName="Premium Package"
-            price="4599"
-            cardMargin="2%"
+            price="AED 4599 Per Month"
+            cardMargin="3%"
             color="#fff"
             bgColor="#002d5b"
           >
@@ -119,9 +119,9 @@ const Accounting = () => {
           </Card>
           <Card
             pkgName="Standard Package"
-            price="3000"
+            price="AED 3000 Per Month"
             color="#000"
-            cardMargin="3%"
+            cardMargin="5%"
             bgColor="#fff"
           >
             <h5>200 Monthly Transactions</h5>
