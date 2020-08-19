@@ -6,7 +6,7 @@ const ParallaxDiv = (props) => {
   return (
     <Parallax
       bgImage={require("../../Images/" + props.image + ".jpg")}
-      strength={600}
+      strength={200}
       bgImageStyle={{ maxWidth: "100%" }}
     >
       <div style={{ height: "500px" }}>

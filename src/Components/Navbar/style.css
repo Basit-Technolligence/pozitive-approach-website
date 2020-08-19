@@ -14,6 +14,10 @@
 }
 @media (max-width: 1000px) {
   .navbar-brand {
-    width: 80%;
+    width: 70%;
   }
+}
+.dropdown-menu :hover {
+  color: white;
+  background-color: #ff656a;
 }

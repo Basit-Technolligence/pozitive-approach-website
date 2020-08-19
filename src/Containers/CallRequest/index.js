@@ -9,8 +9,8 @@ const CallRequest = () => {
           <div className="col-md-4">
             <h1 style={{ color: "white" }}>Request for Call Back</h1>
             <p style={{ color: "white" }}>
-              If you have any query, just leave your number and we will contact
-              you as soon as possible.
+              If you have any query, kindly leave your details and we shall get
+              back to you.
             </p>
           </div>
           <div className="col-md-8 align-self-center">

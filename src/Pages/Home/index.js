@@ -24,12 +24,8 @@ const Home = () => {
         </NavLink>
       </Services>
       <ClientTrust
-        title="We are more trusted then 500 clients"
-        detail="Without your customers, you would not exist. Your business would
-              not flourish, and regardless of the product or service you
-              provide, it would become null and void. You run a business
-              primarily to help people or offer them something you believe in;
-              you also run a business so you can turn a profit."
+        title="We are trusted by more than 500 clients"
+        detail="Pozitive Approach strictly believes that its existence in the market depends on its customers. The products and services that we provide are only successful due to the fact that you as customer believe in us. We help you to flourish your business not only to gaint clients but to create a long term relationship based on mutual understanding and profits."
       />
       <Footer />
     </>

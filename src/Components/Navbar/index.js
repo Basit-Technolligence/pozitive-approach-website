@@ -31,9 +31,40 @@ const Navbar = () => {
             <NavLink className="nav-link mr-5" to="/">
               HOME
             </NavLink>
-            <NavLink className="nav-link mr-5" to="/services">
-              SERVICES
-            </NavLink>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link mr-5 dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                SERVICES
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <NavLink class="dropdown-item" to="/services/accounting">
+                  Accounting & Finance
+                </NavLink>
+                <NavLink class="dropdown-item" to="/services/it">
+                  IT Services
+                </NavLink>
+                <NavLink class="dropdown-item" to="/services/decor">
+                  Decor Work
+                </NavLink>
+                <NavLink class="dropdown-item" to="/services/realestate">
+                  Real Estate
+                </NavLink>
+                <NavLink class="dropdown-item" to="/services/business">
+                  Business Setup
+                </NavLink>
+              </div>
+            </li>
             <NavLink className="nav-link mr-5" to="/about">
               ABOUT
             </NavLink>
